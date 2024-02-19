@@ -1,0 +1,174 @@
+body{
+    background-color:#181A18 ;
+}
+
+#main-page-title{
+    color: azure;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 400%;
+}
+
+
+#main-page-img{
+background-image: url(space.jpg);
+background-position: center center;
+background-repeat: no-repeat;
+background-size: contain;
+width: 100%;
+max-width: 100%;
+height: 30vh;
+display: block;
+border-radius: 15px;
+
+}
+
+
+
+nav {
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:x-large;
+    background-color: #020204;
+    border-radius: 15px;
+    color: azure;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+}
+
+nav a{
+    color:rgb(48, 177, 219);
+}
+main{
+    color: azure ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+ 
+main p{
+    font-family:'Times New Roman', Times, serif ;
+    padding-bottom: 4%;
+    text-justify: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height:150%;
+}
+
+
+h2 li{
+    padding-bottom: 2%;
+}
+h2 img{
+    width: 300px;
+    height: 250px;
+    margin-right: 2%;
+}
+
+.horizontal-list{
+    display: flex;
+    list-style: none; 
+}
+.horizontal-list img{
+    margin-right: 30px;
+}
+.hobbies-box{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: #262826;
+    border-radius: 15px;
+    padding-top: 2%;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.personal-information{
+    text-align: center;
+
+}
+
+.hobbies img{
+    margin-right: 20px;
+
+}
+
+.info-box{
+    background-color: #262826;
+    border-radius: 15px;
+    padding-top: 2%;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.info-box a{
+    color:  rgb(48, 177, 219);
+}
+.fav-songs{
+    
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        background-color: #262826;
+        border-radius: 15px;
+        padding-top: 2%;
+        margin-top: 2%;
+        margin-left: 10%;
+        margin-right: 10%;
+    
+}
+
+.fav-songs li{
+    text-align: left;
+    margin-top:10px;
+ 
+}
+
+.favourite-links{
+    
+    background-color: #262826;
+    border-radius: 15px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    
+}
+
+.favourite-links h2{
+    display:flex ;
+    justify-content: center;
+}
+.favourite-links ul{
+    list-style: none;
+    padding:0;
+    display: flex;
+    justify-content: flex-start
+    
+}
+
+.favourite-links li{
+    font-size: larger;
+    margin-right: 10px;
+}
+
+.coding-box{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    
+    
+}
+ .coding-box  img{
+width: 100%;
+border-radius: 15px;
+
+
+ }
+
+ .coding-box a{
+    width: 100%;
+ }

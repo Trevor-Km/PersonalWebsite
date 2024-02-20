@@ -7,7 +7,16 @@ body{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 400%;
+    background-color:#020204;
+    
+    width: 100%;
+    border-radius: 15px;
 }
+
+#main-page-title nav{
+    
+}
+
 
 
 #main-page-img{
@@ -26,7 +35,7 @@ border-radius: 15px;
 
 
 nav {
-    text-align: center;
+    text-align: right;
     font-family:Arial, Helvetica, sans-serif;
     font-size:x-large;
     background-color: #020204;
@@ -34,11 +43,17 @@ nav {
     color: azure;
     padding-top: 10px;
     padding-bottom: 10px;
+    width: 100%;
+    position:fixed;
+    
+    
    
 }
 
 nav a{
     color:rgb(48, 177, 219);
+    text-decoration: none;
+    padding-right: 15px;
 }
 main{
     color: azure ;
@@ -78,7 +93,7 @@ h2 img{
     justify-content: center;
     background-color: #262826;
     border-radius: 15px;
-    padding-top: 2%;
+    padding: 2%;
     margin-top: 2%;
     margin-left: 10%;
     margin-right: 10%;
@@ -89,10 +104,13 @@ h2 img{
 
 }
 
-.hobbies img{
+.hobbies-box img{
     margin-right: 20px;
+    border: 5px;
 
 }
+
+
 
 .info-box{
     background-color: #262826;

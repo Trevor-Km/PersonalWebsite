@@ -5,20 +5,49 @@ body{
 
 #main-page-title{
     color: azure;
+    display: flex;
+    justify-content: center;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 400%;
+    font-size: 800%;
     background-color:#020204;
     position: fixed;
-    width: 100%;
-    border-radius: 15px;
+    width: 92%;
+    border-radius: 25px;
     margin-top: 0px;
-    padding: 4%;
+    padding: 4.5%;
+    margin-right: 4%;
+    margin-left: 4%;
+margin-bottom: 0px;
+margin-bottom: 3%;
+
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    background-color: #020204;
+    
 }
 
 
 
 
+header nav a{
+    margin-top: 7%;
+    display: flex;
+    justify-content: center;
+    color:rgb(48, 177, 219);
+    text-decoration: none;
+    text-align: center;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    width: 10%
+}
 
 #main-page-img{
 background-image: url(space.jpg);
@@ -28,42 +57,29 @@ background-size: contain;
 width: 100%;
 max-width: 100%;
 height: 30vh;
-margin-top: 15%;
+margin-top: 13%;
 border-radius: 15px;
 
 
 }
 
 
-
-nav {
+header nav{
     /* text-align: right; */
-    display: flex;
-    align-items: center;
-   justify-content: center;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size:x-large;
-    border-radius: 15px;
-    color: azure;
-    max-width: 2024px;
-    
-    padding-bottom: 10px;
-    
-    width: 100%;
-    position:fixed;
-    
-    
-    
-   
+display: flex;
+margin: auto;
+justify-content: center;
+font-family:Arial, Helvetica, sans-serif;
+font-size:x-large;
+border-radius: 15px;
+color: azure;
+padding-bottom: 10%;
+width: 100%;
+position:fixed;
+
 }
 
-nav a{
-    color:rgb(48, 177, 219);
-    text-decoration: none;
-    margin-right: 10%;
-    
-    
-}
+
 main{
     color: azure ;
     font-family: Arial, Helvetica, sans-serif;
@@ -109,13 +125,22 @@ h2 img{
     margin-right: 10%;
     
 }
+.image-gal h2{
+    text-align: center;
+    width: 100%;
+}
+
  .image-container{
-    padding: 10%;
+    padding: 5%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
+
+    
  }
  .image-col img{
-    border-radius: 10px;
+    border-radius: 25px;
+    width: 80%;
+    height: 50%;
 
  }
 .personal-information{
@@ -159,7 +184,7 @@ h2 img{
         margin-top: 2%;
         margin-left: 10%;
         margin-right: 10%;
-    
+
 }
 
 .fav-songs li{
@@ -204,6 +229,10 @@ h2 img{
     margin-left: 10%;
     margin-right: 10%;
     text-align: center;
+}
+.favourite-links a{
+color:  rgb(48, 177, 219);
+text-decoration: none;
 }
 
 .coding-box{
